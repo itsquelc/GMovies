@@ -1,0 +1,22 @@
+git config --global user.name itsquelc
+git config --global user.email raquelnunescirino@gmail.com
+
+Criar projeto:
+npx create-expo-app@latest GMovies --template blank
+cd GMovies
+
+npx expo start --android --localhost
+
+npx expo install react-native-gesture-handler
+
+// tailwind - nativewind
+npm install nativewind
+npm install --save-dev tailwindcss@3.3.2
+npx tailwindcss init
+
+//carousel - snap
+npm install react-native-reanimated-carousel
+npx expo install react-native-reanimated
+
+// heroicons
+npm install react-native-heroicons
